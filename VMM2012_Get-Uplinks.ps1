@@ -1,0 +1,1 @@
+Get-SCNativeUplinkPortProfile |Sort-Object -Property Name  | ft Name, LBFOLoadBalancingAlgorithm, LBFOTeamMode, LogicalNetworkDefinitions, EnableNetworkVirtualization -AutoSize

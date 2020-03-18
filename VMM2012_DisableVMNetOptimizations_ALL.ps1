@@ -1,0 +1,1 @@
+﻿Get-SCVirtualNetworkAdapter -VMMServer localhost -All | Set-SCVirtualNetworkAdapter -EnableVMNetworkOptimization $false
