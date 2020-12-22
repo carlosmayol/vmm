@@ -1,0 +1,1 @@
+Get-SCVMTemplate | ? Name -match "temporary" | Remove-SCVMTemplate
